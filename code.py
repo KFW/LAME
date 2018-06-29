@@ -39,10 +39,10 @@ DOT = 0.1 # 100 ms
 DASH = 3 * DOT
 GAP = 2 * DOT # needed if we've already waited one dot
 SPACE = 4 * DOT # would be 7 but will have already waited one DOT and one GAP
-RED = (255, 0, 0)
+RED = (8, 0, 0) # 8 for dimmer LEDs - can go up to 255
 BLACK = (0, 0, 0)
-BLUE = (0, 0, 255)
-GREEN = (0, 255,0)
+BLUE = (0, 0, 8)
+GREEN = (0, 8,0)
 
 buttonA = DigitalInOut(board.BUTTON_A)
 buttonA.direction = Direction.INPUT
