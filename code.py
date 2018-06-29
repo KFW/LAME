@@ -35,7 +35,7 @@ CODE = {'A': '.-',     'B': '-...',   'C': '-.-.',
         '9': '----.' 
         }
 
-DOT = 0.15 # 150 ms
+DOT = 0.1 # 100 ms
 DASH = 3 * DOT
 GAP = 2 * DOT # needed if we've already waited one dot
 SPACE = 4 * DOT # would be 7 but will have already waited one DOT and one GAP
